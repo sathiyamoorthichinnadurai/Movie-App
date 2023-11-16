@@ -89,6 +89,7 @@ function App() {
     updatesearchQuery(event.target.value)
     const timeout=setTimeout(()=>fetchdata(event.target.value),1000)
     ubdatetimeoutId(timeout)
+    onselectedmovie()
   }
   return (
     <>
